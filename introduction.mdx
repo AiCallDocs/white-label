@@ -1,0 +1,91 @@
+---
+title: "Quick Start"
+description: "Set up your AI Call Agent from scratch: choose a plan, add numbers, connect Google Calendar, and create your first agent."
+---
+
+<div style={{ border:"2px solid #e5e7eb",borderRadius:"12px",padding:"8px",boxShadow:"0 4px 12px rgba(0, 0, 0, 0.10)",maxWidth:"100%",overflow:"hidden",backgroundColor:"#000",marginBottom:"1.5rem" }}>
+  <iframe width="100%" height="420" src="https://www.youtube-nocookie.com/embed/Z43TdSAGKTs" title="Quick Start – Full AI Call Agent Setup" frameBorder="0" loading="lazy" referrerPolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
+</div>
+
+## Overview
+This quick start guide is for new users who just registered and want to configure their account from zero.  
+Follow these steps to select a subscription plan, add a phone number, connect Google Calendar, and create your first AI Call Agent.
+
+## Steps
+
+### 1. Select a Subscription Plan
+1. Go to **Subscription Plans**.
+2. Choose the plan that fits your needs (plans vary by region/account).
+3. Add or update your payment method when prompted.
+4. Confirm your subscription and activate billing.
+5. Once active, you can view/download invoices.
+
+---
+
+### 2. Add a Phone Number
+Open **Add Number** and choose one of the following:
+
+**Option A – Purchase a Number**
+- Select **Country** and, optionally, an **Area Code**.
+- Choose **Local Number** (typical) or **Toll-Free Number**.
+- Click **Search Available Numbers** and pick one.
+- Confirm the monthly price and click **Purchase Selected Number**.
+
+**Option B – Import from Twilio**
+- Open **Import from Twilio**.
+- Enter your **Twilio Account SID** and **Auth Token**.
+- Search and select numbers to import.
+
+**Option C – Add Personal Number (Outbound Caller ID)**
+- Enter your number in **E.164 format** (e.g., +14155550123).
+- Verify via automated call and code entry.
+- **Note:** Personal Numbers can only be used for **outbound agents** — not for inbound routing.
+
+---
+
+### 3. Connect Google Calendar
+1. Go to **Actions → Google Calendar** and click **Add Account**.
+2. Sign in with your Google account and grant permissions.
+3. In **Appointments**, select the calendar for booking.
+4. Configure **Appointment Title**, **Timezone**, and **Working Hours**.
+5. Enable **Schedule Appointments** in your agent’s Call Actions.
+
+---
+
+### 4. Create Your AI Call Agent
+**Step 1 — Basic Information**
+- Name your agent.
+- Select **Inbound** or **Outbound** type.
+- Set max call duration and retry rules.
+- Choose AI type: **Standard** or **Knowledge-Based**.
+- Enable optional call settings as needed.
+
+**Step 2 — Voice & Language**
+- Pick conversation language.
+- Select a voice and playback speed.
+
+**Step 3 — Prompts & Behavior**
+- Choose a category.
+- Add greeting message and conversation prompt.
+- Use variables (e.g., `[first_name]`, `[appointment_date]`) for personalization.
+
+**Step 4 — Call Actions & Data Extraction**
+- Enable required actions (e.g., Schedule Appointments, Forward to Human).
+- Link Google Calendar if scheduling.
+- Define data entities to capture (e.g., appointment details).
+
+Save changes — your agent is ready.
+
+---
+
+## Tips & Notes
+- Keep at least one local number per target region.
+- Test calls before going live.
+- Personal Numbers are outbound-only — use virtual numbers for inbound.
+- Use a dedicated booking calendar to avoid conflicts.
+
+## Related
+- [[Create-AI-Agent/Billing]]
+- [[Create-AI-Agent/Configure-Numbers]]
+- [[Create-AI-Agent/Google-Calendar]]
+- [[Create-AI-Agent/Create-Agent]]
